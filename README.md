@@ -61,15 +61,13 @@ Real-time indexing & querying
 ├── retriever.py            # Semantic retrieval logic
 ├── qa_engine.py            # RAG + Gemini answer generation
 ├── requirements.txt        # Project dependencies
-├── README.md               # Project documentation
-└── assets/
-    └── ui.png              # UI screenshot
+├── README.md               # Project documentation           
 
 ```
 ## ⚙️ Installation & Setup
 1️⃣ Clone the Repository
 git clone https://github.com/your-username/multi-modal-rag-chatbot.git
-cd multi-modal-rag-chatbot
+cd multi-modal-rag
 
 2️⃣ Create Virtual Environment
 python -m venv venv
@@ -94,19 +92,6 @@ streamlit run app.py
 
 Then upload a PDF and start asking questions.
 
-## 🧪 Example Questions
-
-What are the deliverables mentioned in this document?
-
-Explain the Transformer architecture described in the paper.
-
-What evaluation criteria are used?
-
-## 📊 Design Choices & Observations
-
-Unstructured.io was chosen for robust PDF parsing and table extraction
-
-FAISS enables fast, local semantic retrieval
 
 OCR fallback ensures support for scanned documents
 
