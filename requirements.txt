@@ -1,0 +1,16 @@
+streamlit
+unstructured
+pdf2image
+pytesseract
+faiss-cpu
+google-generativeai
+python-dotenv
+beautifulsoup4
+pypdf
+langchain
+langchain-core
+langchain-community
+langchain-huggingface
+langchain-google-genai
+sentence-transformers
+Pillow
